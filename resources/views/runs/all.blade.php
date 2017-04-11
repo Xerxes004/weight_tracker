@@ -1,4 +1,5 @@
 <table>
+	<tr><th colspan="5">Past Run Data</th></tr>
 	<tr>
 		<th>Runtime</th>
 		<th>Distance</th>

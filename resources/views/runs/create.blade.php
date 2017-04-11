@@ -1,6 +1,7 @@
 <form method="post" action="/runs/create">
 	{{ csrf_field() }}
 	<table style="border:1px solid #000">
+    <tr><th colspan="2">New Run Data</th></tr>
 		<tr>
 			<td><label for="run_min">Runtime (min):</label></td>
 			<td><input type="number" name="run_min" value="0"></td>
