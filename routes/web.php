@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'WeightDataController@index');
+Route::post('/runs/create', 'RunController@create');
+Route::get('/runs/delete/{id}', 'RunController@destroy');
+Route::get('/runs', 'RunController@index');
